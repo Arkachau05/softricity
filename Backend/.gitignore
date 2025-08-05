@@ -1,0 +1,70 @@
+# === Node Modules ===
+node_modules/
+
+# === Environment Variables ===
+.env
+.env.*
+!.env.example  # Keep example config (optional)
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# === Runtime data ===
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# === Build Output ===
+dist/
+build/
+.tmp/
+.cache/
+.next/
+out/
+
+# === Dependency directories ===
+jspm_packages/
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === Coverage ===
+coverage/
+.nyc_output/
+
+# === Test ===
+*.spec.js
+*.spec.ts
+*.test.js
+*.test.ts
+test-output/
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+*.sw?
+*.swo
+*.swn
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Misc ===
+*.bak
+*.orig
+*.tmp
+*.log
+*.gz
+*.zip
+
+# === Lockfiles (keep only one if needed) ===
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
